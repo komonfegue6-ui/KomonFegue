@@ -1,59 +1,87 @@
+<div align="center">
 # Hey, I'm Komon 👋
-
-☁️ **AWS Cloud Engineer · Python · Linux · Johannesburg, SA**
-
-AWS Certified Cloud Practitioner building production cloud systems on AWS. Currently completing a cybersecurity internship at MWR CyberSec. Passionate about cloud infrastructure, security, and helping people get the most out of AWS.
-
+ 
+**☁️ Aspiring Cloud Support & Cloud Security Engineer · Johannesburg, South Africa**
+ 
+AWS Certified Cloud Practitioner working toward Solutions Architect – Associate. I treat every project as a chance to go deeper, not just check a box — diagnosing root causes, documenting the fix, and building in public along the way.
+ 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/komon-fegue-789746388/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:komonservices@gmail.com)
+ 
+</div>
 ---
-
+ 
 ### 🛠️ Tech Stack
-
+ 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-
-**AWS Services:** Lambda · API Gateway · IAM · CloudWatch · S3 · EC2 · EventBridge · VPC  
-**Security:** OWASP Top 10 · BurpSuite · IAM least-privilege · Security Group Auditing  
-**Networking:** DNS · TCP/IP · HTTP/S · TLS/SSL · CIDR · VPC
-
+ 
+**Cloud & Infrastructure:** AWS (EC2, S3, VPC, IAM, Lambda, ECS/Fargate, ECR, CloudWatch, Secrets Manager, AWS CLI)
+**Networking:** CIDR · Subnetting · Routing Tables · NAT · DNS · HTTP/TCP/UDP · DHCP · VPC Gateway & Interface Endpoints
+**Security:** IAM Policy Auditing · Least-Privilege Access Design · S3 Bucket & Endpoint Policies · Encryption at Rest/in Transit
+**Tools:** Kiro (AWS's agentic AI development tool) · Git
+ 
 ---
-
+ 
 ### 🚀 Featured Projects
-
-#### 🔒 [AWS Security Auditor](https://github.com/ulrichfegue/aws-security-auditor)
-Production-grade automated cloud compliance tool. Scans S3 public access, IAM MFA enforcement, and EC2 security group exposure on a weekly Lambda + EventBridge schedule.
-- Identified **3 misconfigured S3 buckets** and **2 IAM users without MFA** in test environment
-- Deployed with least-privilege IAM execution role using AWS-managed SecurityAudit policy
-- Structured CloudWatch logging for full observability
-
-`Python` `Lambda` `EventBridge` `IAM` `S3` `CloudWatch`
-
+ 
+#### 🔒 [VPC Endpoints & Private S3 Access](https://github.com/komonfegue6-ui)
+Designed a VPC architecture with a Gateway endpoint so an EC2 instance could reach S3 privately, removing public-internet exposure for CLI/S3 traffic.
+- Enforced endpoint-only access with S3 bucket and endpoint policies
+- Diagnosed and resolved a route-table misconfiguration that was silently blocking legitimate traffic after the policy was applied
+`AWS VPC` `S3` `Gateway Endpoints` `IAM` `Route Tables`
+ 
 ---
-
-#### ⚡ [Serverless REST API](https://github.com/ulrichfegue/serverless-rest-api)
-End-to-end production serverless backend deployed on AWS.
-- Diagnosed and resolved multi-layer failures across Lambda, API Gateway, and IAM
-- **99.9% uptime** across production test cycles
-- 🟢 **[Live endpoint](https://7cpzcqn9e5.execute-api.eu-central-1.amazonaws.com/prod/hello)**
-
+ 
+#### 🛡️ [Automated AWS Security Auditor](https://github.com/komonfegue6-ui)
+Independently designed and built a tool that audits AWS environments against security best practices, flagging misconfigurations before they become incidents.
+- Checks for common misconfiguration patterns across S3, IAM, and EC2 security groups
+- Deployed with a least-privilege IAM execution role
+`Python` `Lambda` `IAM` `S3` `CloudWatch`
+ 
+---
+ 
+#### ⚡ [Serverless REST API](https://github.com/komonfegue6-ui)
+Independently designed, built, and deployed a serverless REST API on AWS, owning the full lifecycle from architecture through deployment.
+- Diagnosed and resolved multi-layer issues across Lambda, API Gateway, and IAM permissions
 `Python` `Lambda` `API Gateway` `IAM` `CloudWatch`
-
+ 
 ---
-
-### 🏆 Certifications
-
-- ☁️ **AWS Certified Cloud Practitioner (CLF-C02)** — Amazon Web Services, Aug 2025
-- 🎓 **MITx 6.00.1x** — Intro to CS & Programming Using Python — MIT via edX, 2023
-- 🎓 **MITx 6.00.2x** — Computational Thinking & Data Science — MIT via edX, 2023
-- 🔐 **MWR CyberSec Virtual Internship** — 16-week cybersecurity programme (Expected June 2026)
-
+ 
+#### 🚨 GBV Safety Awareness Mobile App — Cloud/Infrastructure Lead *(In Progress)*
+Own cloud architecture for a React Native + Node.js safety app as part of a 3-person team build.
+- Covering AWS ECS/Fargate, ECR, VPC, IAM, S3, CloudWatch, Secrets Manager, and CI/CD
+- Responsible for encryption, access control, and infrastructure security across the backend
+- Using Kiro to accelerate infrastructure-as-code and backend development
+`React Native` `Node.js` `AWS ECS/Fargate` `VPC` `IAM` `CI/CD`
+ 
 ---
-
-### 📬 Connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)]((https://www.linkedin.com/in/komon-fegue-789746388/))
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:komonservices@gmail.com)
-
+ 
+### 🏆 Certifications & Education
+ 
+- ☁️ **AWS Certified Cloud Practitioner**
+- ☁️ **AWS Certified Solutions Architect – Associate** *(in progress — exam prep underway)*
+- 🎓 **MITx 6.00.1x** — Introduction to Computer Science and Programming Using Python — MIT via edX
+- 🎓 **MITx 6.00.2x** — Introduction to Computational Thinking and Data Science — MIT via edX
+- 🔐 **MWR CyberSec Virtual Internship** — 16-week web application security & penetration testing programme, completed 2026
+- 🎓 **UNISA — Diploma in Information Technology** (Distance Learning), expected 2027
 ---
-![Visitor Count](https://komarev.com/ghpvc/?username=komonfegue&color=FF9900&style=flat)
+ 
+### 📊 GitHub Stats
+ 
+<div align="center">
+![Komon's GitHub stats](https://github-readme-stats.vercel.app/api?username=komonfegue6-ui&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=komonfegue6-ui&layout=compact&theme=tokyonight&hide_border=true)
+ 
+</div>
+---
+ 
+<div align="center">
+![Visitor Count](https://komarev.com/ghpvc/?username=komonfegue6-ui&color=FF9900&style=flat)
+ 
+</div>
+
