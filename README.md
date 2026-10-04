@@ -78,7 +78,8 @@ Own cloud architecture for a React Native + Node.js safety app as part of a 3-pe
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=komonfegue6-ui&layout=compact&theme=tokyonight&hide_border=true)
  
 </div>
----### 🧠 Beyond Code
+---
+### 🧠 Beyond Code
 
 ♟️ Competitive chess player — I like the discipline of thinking several moves ahead, same mindset I bring to debugging
 🐉 Dragon Ball Z fan — if you know, you know
