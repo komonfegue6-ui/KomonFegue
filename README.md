@@ -3,7 +3,7 @@
  
 **☁️ Aspiring Cloud Support & Cloud Security Engineer · Johannesburg, South Africa**
  
-AWS Certified Cloud Practitioner working toward Solutions Architect – Associate. I treat every project as a chance to go deeper, not just check a box — diagnosing root causes, documenting the fix, and building in public along the way.
+AWS Certified Cloud Practitioner working toward Solutions Architect Associate. I treat every project as a chance to go deeper, not just check a box diagnosing root causes, documenting the fix, and building in public along the way.
  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/komon-fegue-789746388/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:komonservices@gmail.com)
